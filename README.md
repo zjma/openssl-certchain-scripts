@@ -12,7 +12,7 @@ where
 - **earth** is the root using a 4096-bit RSA key-pair,
 - **asia** is the sub-CA using a 2048-bit RSA key-pair,
 - **china** is the subsub-CA using a key-pair on curve `prime256v1`,
-- **fudan** is the enduser using an key-pair on curve `secp521r1`.
+- **fudan** is the enduser using a key-pair on curve `secp521r1`.
 
 After clone, cd into the repo root dir.
 
