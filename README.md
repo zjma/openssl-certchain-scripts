@@ -60,3 +60,8 @@ verify return:1
 depth=0 CN = fudan
 verify return:1
 ```
+
+***NOTE***
+Built-in TLS server program `openssl s_server -cert fudan-cert.pem -key fudan-key.pem` cannot give you the result above.
+This is because the implementation of `s_server` is unable to load the entire chain.
+
