@@ -33,7 +33,7 @@ Write **fudan**'s TLS server program where certificate is loaded as follows.
 // ...
 SSL_CTX *ctx = SSL_CTX_new(TLSv1_2_server_method());
 SSL_CTX_use_certificate_chain_file(ctx, "fudan-chain.pem");
-SSL_CTX_use_PrivateKey_file(ctx, "key.pem", SSL_FILETYPE_PEM);
+SSL_CTX_use_PrivateKey_file(ctx, "fudan-key.pem", SSL_FILETYPE_PEM);
 // ...
 ```
 
